@@ -1,0 +1,56 @@
+{
+  "@context": "http://schema.org",
+  "type": "Dataset",
+  "name": "Book Genre and Summary NLP",
+  "creator": [
+    {
+      "type": "Person",
+      "id": "n/a",
+      "email": "n/a",
+      "affiliation": "University of Tennessee",
+      "name": "Mcknight, Justin Thomas"
+    }
+  ],
+  "description": "Dataset for using book summary to determine genre. Original data from here https://www.kaggle.com/datasets/athu1105/book-genre-prediction?resource=download (2024)",
+  "datePublished": "Apr 8, 2024",
+  "keywords": "Computer and Information Science",
+  "funder": "n/a",
+  "temporalCoverage": "n/a/n/a",
+  "license": "CC0 1.0",
+  "spatialCoverage": {
+    "type": "Place",
+    "name": "n/a",
+    "geo": {
+      "type": "GeoShape",
+      "box": "n/a n/a n/a n/a"
+    }
+  },
+  "variableMeasured": [
+    {
+      "type": "PropertyValue",
+      "unitText": "n/a",
+      "name": "title",
+      "description": "n/a"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "n/a",
+      "name": "genre",
+      "description": "n/a"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "n/a",
+      "name": "summary",
+      "description": "n/a"
+    }
+  ],
+  "distribution": [
+    {
+      "type": "DataDownload",
+      "name": "n/a",
+      "contentUrl": "https://dataverse.harvard.edu/file.xhtml?fileId=10078062&version=1.0",
+      "encodingFormat": "tab"
+    }
+  ]
+}
